@@ -1,0 +1,50 @@
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #f5eee6;
+}
+
+:root {
+    /* Fonts */
+    --ff-main: ;
+    --ff-primary: 'Advent Pro', sans-serif;
+    --ff-secondary: 'Raleway Dots', cursive;
+    --ff-body: 'Source Code Pro', monospace;
+    --ff-time: 'Rubik Dirt', cursive;
+    /* size */
+    --fs-h1: ;
+    --fs-h2: ;
+    --fs-body: ;
+    /* font-weight */
+    --fw-xlight: ;
+    --fw-light: ;
+    --fw-medium: ;
+    --fw-bold: ;
+    --fw-xbold: ;
+    /* Colors */
+    --bg-dark: #131313;
+    /* Layout */
+    --section-max-width: 1000px;
+    --90-width: 90%;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: var(--bg-dark);
+    font-family: var(--ff-body);
+    font-family: 'Neue';
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
